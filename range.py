@@ -6,3 +6,4 @@ for i in range (100):
     y+=i
 print(x)
 print(y)
+print(x+y)
