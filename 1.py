@@ -168,6 +168,9 @@ for i in [1,2,3,4,5,2]:
         break
     b.append(i)
 else:print("no duplicates found")
+
+for i in range (10):
+  print(i)
  
        
     
