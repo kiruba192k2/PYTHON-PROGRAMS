@@ -145,35 +145,61 @@
 #     if x:
 #         break      
 
-a=[1,2,3,4,1,2,3,4,2]
+# a=[1,2,3,4,1,2,3,4,2]
 
-for i in a:
-    if a.count(i)>1:
-        print(i)
-        break
+# for i in a:
+#     if a.count(i)>1:
+#         print(i)
+#         break
 
-a=[1,2,3,4,5,1]
-b=[]
+# a=[1,2,3,4,5,1]
+# b=[]
  
-for i in a:
-    if i in b:
-        print(i)
-        break
-    b.append(i)
+# for i in a:
+#     if i in b:
+#         print(i)
+#         break
+#     b.append(i)
 
-b=[]
-for i in [1,2,3,4,5,2]:
-    if i in b:
-        print(i)
-        break
-    b.append(i)
-else:print("no duplicates found")
+# b=[]
+# for i in [1,2,3,4,5,2]:
+#     if i in b:
+#         print(i)
+#         break
+#     b.append(i)
+# else:print("no duplicates found")
 
-for i in range (10):
-  print(i)
- 
-       
+# for i in range (10):
+#   print(i)    
+
+
+#ANAGRAM  
+# s1='eisten'
+# s2='silent'
+# a=[]
+# b=[]
+# if(len(s1)!=len(s2)):
+#      print(" NOT AN ANAGRAM")
+# else:     
+#     for i in s1:
+#         a.append(i)
+#     for j in s2:
+#         b.append(j)
+#     a.sort()
+#     b.sort()
+#     if(a==b):
+#         print("ANAGRAM")
     
+#     else:
+#         print(" NOT AN ANAGRAM")
+            
+       
+s1='listen'
+s2='silent'
+print("ANAGRAM" if(sorted(s1)== sorted(s2)) else  " NOT AN ANAGRAM")
+    
+ 
+            
 
 
 
