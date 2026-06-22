@@ -194,12 +194,43 @@
 #         print(" NOT AN ANAGRAM")
             
        
-s1='listen'
-s2='silent'
-print("ANAGRAM" if(sorted(s1)== sorted(s2)) else  " NOT AN ANAGRAM")
+# s1='listen'
+# s2='silent'
+# print("ANAGRAM" if(sorted(s1)== sorted(s2)) else  " NOT AN ANAGRAM")
     
  
-            
+# s1='listen'
+# s2='silent'
+# ls1=[]*26
+# ls2=[]*26
+# if(len(s1)!=len(s2)):
+#        print("NOT ANAGRAM")
+# else:     
+#    for i in s1.lower():
+#       ls1[ord(i)-97]+=1
+#    for i in s2.lower():
+#       ls2[ord(i)-97]+=1  
+#    if(ls1==ls2):
+#       print("ANAGRAM")
+#    else:
+#       print("NOT ANAGRAM")  
+
+s1="kitkat"
+ls1=[0]*26
+for i in s1.lower():
+    ls1[ord(i)-97]+=1
+for i in range(len(ls1)):
+    if ls1[i]!=0:      
+       print(chr(i+97)+str(ls1[i]),end="")    
+
+
+# s1="aaabbcccc"
+# for i in range(len(s1)):
+#    for j in range(i+1):
+#         s1[i]=
+
+
+
 
 
 
