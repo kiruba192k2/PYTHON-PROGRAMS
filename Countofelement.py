@@ -8,4 +8,4 @@ for i in a:
     
     if(no==i):
         j=j+1
-print("the number",no,"is present ",j,"times") 
+print("the number",no,"is present ",j,"times" )
